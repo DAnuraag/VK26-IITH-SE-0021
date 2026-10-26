@@ -4791,42 +4791,6 @@ behalf of unnamed members.
 | [Validation strategy](#validation) | Testable methods and acceptance targets | Completed or passed test cases |
 | [Public repository](https://github.com/DAnuraag/VK26-IITH-SE-0021) | Canonical review/publication location | Unpublished source, releases or a missing video |
 
-### Recommended genuine recording sequence
-
-#### When the team records the prototype
-
-1. Show project identity, actual device and approved low-voltage test
-   arrangement.
-2. Identify the release and the source of displayed readings.
-3. Demonstrate the Ubuntu-based onsite environment without exposing
-   secrets.
-4. Show the real Qt UI and Python-backed monitoring context.
-5. Show the actual website and app using the same node/event context.
-6. Demonstrate an authorized controlled data-quality or connectivity
-   case.
-7. Show the system distinguishing stale/backfill from a current
-   observation.
-8. Explain the proposed alert criteria and distinguish any simulated
-   fixture.
-9. Show an acknowledgement/inspection workflow if implemented in the
-   demonstrated release.
-10. State the current limits and evidence still being collected.
-11. Publish an accessible verified playback URL and add its date/build
-    context here.
-
-### Publication readiness
-
-- [ ] The video link opens for the intended reviewers without an
-  undisclosed access requirement.
-- [ ] Every screenshot/photo is authentic or explicitly labeled
-  illustrative.
-- [ ] No password, token, private key, internal account or sensitive site
-  detail is visible.
-- [ ] The build, test conditions and any injected examples are stated.
-- [ ] Numeric results have a dataset/method rather than only a narration.
-- [ ] The README and asset folder are published together so relative
-  figures load.
-- [ ] Known limitations and pending test cases remain visible.
 
 <a id="references"></a>
 ## Glossary, References and Documentation Conventions
