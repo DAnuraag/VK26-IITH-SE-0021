@@ -1,0 +1,43 @@
+ARKA AI — VISUAL ENGINEERING HANDBOOK
+Application: VK26-IITH-SE-0021
+
+OPEN
+  README.md    The complete GitHub-ready source
+
+PUBLISH TO THE CANONICAL REPOSITORY
+  Copy README.md AND the docs/ folder into the same repository root.
+  Preserve relative paths so the 38 SVG figures and reference links work.
+  README.html, requirements-docs.txt and these notes are optional companions.
+  No remote repository was changed by preparing this package.
+
+INCLUDED
+  38 technical figures, each supplied as SVG plus PNG.
+  101 Markdown tables and 45 fenced technical examples.
+  Python figure sources, authored handbook sources and documentation checks.
+  Calculated/planned CSV data, reference contracts, concept STEP files,
+  the original Stage 1 PDF and the ecosystem review PDF.
+
+REBUILD DOCUMENTATION (Python 3.11+; platform Cairo library required)
+  python -m pip install -r requirements-docs.txt
+  python docs/tools/render_figures.py
+  python docs/tools/build_handbook.py
+  python docs/tools/build_offline_html.py
+  python docs/tools/check_readme.py
+  python -m unittest discover -s docs/tools -p 'test_reference_math.py'
+
+CHECK RESULTS
+  docs/data/documentation_quality_report.json
+  docs/data/offline_reader_browser_check.json
+  SHA256SUMS.txt
+
+EVIDENCE BOUNDARIES
+  Documentation calculations/tests are NOT application or hardware acceptance.
+  Software capabilities reflect the team-confirmed Ubuntu/Qt/Python/website/app ecosystem.
+  Detailed unpublished runtime commands/frameworks are not invented.
+  Hardware, packaging, accuracy and detection plans retain their proposed/target status.
+  A verified prototype-video URL was not supplied; the README states publication pending.
+  Read-only 12–24 V DC / <=5 A demonstration scope only; never connect this
+  reference circuit directly to live plant PV strings.
+
+Offline-reader downloads/printing may be restricted inside a sandboxed preview.
+Open the downloaded HTML in a normal browser, or use the files in this ZIP.

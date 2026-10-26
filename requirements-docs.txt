@@ -1,0 +1,12 @@
+# Documentation tooling only. These are NOT ARKA application dependencies.
+# Python 3.11+; versions below match the documentation-build environment.
+# CairoSVG also needs the platform Cairo library.
+numpy==2.3.5
+matplotlib==3.10.9
+CairoSVG==2.9.1
+Pillow==12.3.0
+fonttools==4.67.0
+markdown-it-py==4.2.0
+beautifulsoup4==4.15.0
+jsonschema==4.26.0
+PyYAML==6.0.3
