@@ -1,0 +1,268 @@
+[
+  {
+    "name": "ecosystem_overview",
+    "svg": "ecosystem_overview.svg",
+    "png": "ecosystem_overview.png",
+    "description": "Onsite Ubuntu platform, Qt/Python, website and companion app",
+    "basis": "Stage 1 scope + team-confirmed software capabilities"
+  },
+  {
+    "name": "ecosystem_architecture",
+    "svg": "ecosystem_architecture.svg",
+    "png": "ecosystem_architecture.png",
+    "description": "Field, messaging, embedded gateway and client interfaces",
+    "basis": "Logical architecture; detailed contracts are reference design"
+  },
+  {
+    "name": "ecosystem_workflow",
+    "svg": "ecosystem_workflow.svg",
+    "png": "ecosystem_workflow.png",
+    "description": "Sensing-to-engineer inspection and recorded outcome",
+    "basis": "Documented user journey extended with connected clients"
+  },
+  {
+    "name": "electrical_connections",
+    "svg": "electrical_connections.svg",
+    "png": "electrical_connections.png",
+    "description": "Pin-referenced Kelvin sensing and isolated I2C",
+    "basis": "Proposed low-voltage connection; TI pin tables"
+  },
+  {
+    "name": "mechanical_layout",
+    "svg": "mechanical_layout.svg",
+    "png": "mechanical_layout.png",
+    "description": "Board allocation, enclosure dimensions and tab load",
+    "basis": "Proposed geometry; analytical assumptions, not EDA/FEA"
+  },
+  {
+    "name": "enclosure_assembly",
+    "svg": "enclosure_assembly.svg",
+    "png": "enclosure_assembly.png",
+    "description": "Exploded sensor-node enclosure",
+    "basis": "Proposed seven-part STEP packaging concept"
+  },
+  {
+    "name": "anomaly_flow",
+    "svg": "anomaly_flow.svg",
+    "png": "anomaly_flow.png",
+    "description": "Quality gating, residual and persistence",
+    "basis": "Proposed anomaly acceptance logic"
+  },
+  {
+    "name": "hmi_reference_layout",
+    "svg": "hmi_reference_layout.svg",
+    "png": "hmi_reference_layout.png",
+    "description": "Electrical/environmental interface example",
+    "basis": "Illustrative layout/values, not an actual software capture"
+  },
+  {
+    "name": "verification_roadmap",
+    "svg": "verification_roadmap.svg",
+    "png": "verification_roadmap.png",
+    "description": "Forward verification and release plan",
+    "basis": "Four-month relative plan, not completed milestones"
+  },
+  {
+    "name": "runtime_stack",
+    "svg": "runtime_stack.svg",
+    "png": "runtime_stack.png",
+    "description": "Runtime layers and separation of gateway from sensor-node firmware",
+    "basis": "Known software technologies; logical service decomposition"
+  },
+  {
+    "name": "boot_recovery",
+    "svg": "boot_recovery.svg",
+    "png": "boot_recovery.png",
+    "description": "Reference startup dependencies, degraded state and controlled recovery",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "qt_workers",
+    "svg": "qt_workers.svg",
+    "png": "qt_workers.png",
+    "description": "Reference nonblocking Qt worker, storage and rendering boundaries",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "client_access",
+    "svg": "client_access.svg",
+    "png": "client_access.png",
+    "description": "Onsite and remote access boundaries with local-first behavior",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "firmware_cycle",
+    "svg": "firmware_cycle.svg",
+    "png": "firmware_cycle.png",
+    "description": "Reference sensor acquisition and publish cycle",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "power_domains",
+    "svg": "power_domains.svg",
+    "png": "power_domains.png",
+    "description": "Separate power/ground domains, isolated branch and common bridge hazards",
+    "basis": "Proposed node power design; not a safety certification"
+  },
+  {
+    "name": "irradiance_chain",
+    "svg": "irradiance_chain.svg",
+    "png": "irradiance_chain.png",
+    "description": "Nominal irradiance signal chain and proposed ADC range",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "mqtt_replay",
+    "svg": "mqtt_replay.svg",
+    "png": "mqtt_replay.png",
+    "description": "Reference QoS 1 redelivery and idempotent persistence sequence",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "telemetry_contract",
+    "svg": "telemetry_contract.svg",
+    "png": "telemetry_contract.png",
+    "description": "Reference telemetry envelope and shared-client context",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "storage_model",
+    "svg": "storage_model.svg",
+    "png": "storage_model.png",
+    "description": "Reference telemetry, calibration, event, maintenance and configuration relations",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "quality_states",
+    "svg": "quality_states.svg",
+    "png": "quality_states.png",
+    "description": "Measurement-quality vocabulary and recovery requirements",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "alert_lifecycle",
+    "svg": "alert_lifecycle.svg",
+    "png": "alert_lifecycle.png",
+    "description": "Reference alert lifecycle and engineer-led maintenance",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "validation_pipeline",
+    "svg": "validation_pipeline.svg",
+    "png": "validation_pipeline.png",
+    "description": "Reference event-level validation and leakage controls",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "security_zones",
+    "svg": "security_zones.svg",
+    "png": "security_zones.png",
+    "description": "Reference least-privilege boundaries and remote-access review gates",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "operator_journey",
+    "svg": "operator_journey.svg",
+    "png": "operator_journey.png",
+    "description": "Onsite engineer shift-to-handover workflow",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "backup_recovery",
+    "svg": "backup_recovery.svg",
+    "png": "backup_recovery.png",
+    "description": "Reference consistent backup and recovery checks",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "calibration_chain",
+    "svg": "calibration_chain.svg",
+    "png": "calibration_chain.png",
+    "description": "Metrology evidence chain from reference to released coefficients",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "fault_isolation",
+    "svg": "fault_isolation.svg",
+    "png": "fault_isolation.png",
+    "description": "Boundary-oriented troubleshooting instead of indiscriminate restarts",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "release_contract",
+    "svg": "release_contract.svg",
+    "png": "release_contract.png",
+    "description": "Reference deployment-release controls for the existing software ecosystem",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "maker_progress",
+    "svg": "maker_progress.svg",
+    "png": "maker_progress.png",
+    "description": "Documented foundation and team-confirmed software milestones",
+    "basis": "Reference architecture / proposed operating contract"
+  },
+  {
+    "name": "shunt_transfer",
+    "svg": "shunt_transfer.svg",
+    "png": "shunt_transfer.png",
+    "description": "Calculated current-to-shunt-voltage and heating curves",
+    "basis": "Ohm/Joule laws; not measured calibration or thermal performance"
+  },
+  {
+    "name": "irradiance_transfer",
+    "svg": "irradiance_transfer.svg",
+    "png": "irradiance_transfer.png",
+    "description": "Nominal SP-110-SS transfer and candidate ADC scaling",
+    "basis": "Manufacturer nominal sensitivity; calibration coefficient must come from the actual instrument"
+  },
+  {
+    "name": "energy_gaps",
+    "svg": "energy_gaps.svg",
+    "png": "energy_gaps.png",
+    "description": "Illustrative trapezoidal energy accumulation excluding unknown intervals",
+    "basis": "Calculated example, not plant telemetry or a meter-comparison result"
+  },
+  {
+    "name": "residual_persistence",
+    "svg": "residual_persistence.svg",
+    "png": "residual_persistence.png",
+    "description": "Illustrative qualifying residual and 180-second persistence",
+    "basis": "Reference algorithm timing; stable/valid irradiance assumed; not measured alert performance"
+  },
+  {
+    "name": "retention_model",
+    "svg": "retention_model.svg",
+    "png": "retention_model.png",
+    "description": "Raw ten-node retention and explicitly assumed overhead scenarios",
+    "basis": "10 nodes \u00d7 200 B \u00d7 1 Hz; overhead factors are not SQLite benchmark results"
+  },
+  {
+    "name": "calibration_matrix",
+    "svg": "calibration_matrix.svg",
+    "png": "calibration_matrix.png",
+    "description": "Planned bench test-point matrix with calculated load power",
+    "basis": "Test plan only; cells are P=VI, not calibration errors or passed test results"
+  },
+  {
+    "name": "thermal_budget",
+    "svg": "thermal_budget.svg",
+    "png": "thermal_budget.png",
+    "description": "Calculated thermal-resistance requirement for a 65 \u00b0C interior target",
+    "basis": "3 W steady dissipation; direct solar loading excluded; not a thermal test"
+  },
+  {
+    "name": "budget_breakdown",
+    "svg": "budget_breakdown.svg",
+    "png": "budget_breakdown.png",
+    "description": "Proposed BOM line costs with the shared irradiance reference",
+    "basis": "Planning prices only; subtotal \u20b946,700, contingency total \u20b956,040"
+  },
+  {
+    "name": "latency_model",
+    "svg": "latency_model.svg",
+    "png": "latency_model.png",
+    "description": "Illustrative inspection wait comparison and 210-second design budget",
+    "basis": "97.08% modeled wait reduction is not measured yield recovery"
+  }
+]
