@@ -1,0 +1,12 @@
+Component,Proposed part/specification,Quantity,Estimated unit INR,Estimated line INR,Unverified supply / planning lead time
+Controller,ESP32-S3-DevKitC-1-N8R8,1,"1,300","1,300",India · 1–2 wk*
+V / I measurement,INA226AIDGSR + 10 mohm / ≥1 W Kelvin shunt,1 set,650,650,India · 1–2 wk*
+Isolation stage,ISO1540DR + B0505S-1WR3 + TLV76033DBZR,1 set,"1,100","1,100",India · 1–2 wk*
+Irradiance ADC,ADS1115IDGSR breakout,1,300,300,India · 1–2 wk*
+Panel temperature,DS18B20 + cable / contact mount,1,250,250,India · 1–2 wk*
+Irradiance reference,Apogee SP-110-SS pyranometer,1,"32,000","32,000",Import · 3–6 wk*
+Local gateway kit,Raspberry Pi 4B 4 GB + 64 GB card + PSU,1 set,"6,800","6,800",India · 1–2 wk*
+Node power supply,5 V / 3 A external PSU; GST18A05-P1J proposed,1,"1,000","1,000",India · 1–2 wk*
+Enclosure / mounting,"PC case, gasket, glands + aluminum plate",1 set,"1,600","1,600",Local · 1–2 wk*
+PCB / protection,2-layer FR4 board + protective components,1 set,"1,200","1,200",Local · 1–2 wk*
+Harness / passives,"Terminal blocks, cable, fuse and passives",1 set,500,500,Local · 1–2 wk*

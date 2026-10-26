@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "scope": "Documentation integrity and reference calculations only; not hardware/application acceptance.",
+  "readme": {
+    "physical_lines": 5000,
+    "utf8_bytes": 248841,
+    "sha256": "4c4cc56a5b6c34862f82bd00579126cea05621ca9995892f3faf36b58f78894b",
+    "blank_lines": 725,
+    "chapters_including_title_board": 40,
+    "rendered_Markdown_tables": 101,
+    "technical_figures": 38,
+    "code_blocks": 45,
+    "python_blocks": 7,
+    "json_blocks": 10,
+    "yaml_blocks": 2
+  },
+  "reference_tests": {
+    "executed": 32,
+    "failures": 0,
+    "errors": 0
+  },
+  "offline_HTML": {
+    "embedded_figures": 38,
+    "external_asset_requests": []
+  },
+  "checks": [
+    {
+      "name": "exact_5000_LF_terminated_lines",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "UTF8_no_BOM_no_CR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single_final_newline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "title_board_is_first",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_numbered_generic_control_register",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blank_lines_normal_separation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_excess_blank_runs_outside_code",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "unique_explicit_anchors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_internal_anchor_links_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all_relative_links_and_images_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "38_inline_technical_figures",
+      "passed": true,
+      "detail": 38
+    },
+    {
+      "name": "registry_contains_38_distinct_figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG_and_PNG_integrity_no_remote_dependencies",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all_JSON_Python_YAML_blocks_parse",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reference_SQL_schema_and_queries_execute",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_telemetry_fixtures_validate",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "persistence_180_elapsed_seconds_at_t300",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "energy_example_excludes_80_seconds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "energy_dataset_matches_valid_endpoint_integration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "BOM_46700_subtotal_56040_with_contingency",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "node_only_scope_7900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_retention_5184000000_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "documentation_math_unit_tests",
+      "passed": true,
+      "detail": {
+        "executed": 32,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    {
+      "name": "offline_HTML_embeds_all_38_figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline_HTML_has_no_network_asset_dependencies",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "failed_checks": [],
+  "evidence_boundaries": [
+    "Charts use calculated/planned/illustrative inputs, not measured plant telemetry.",
+    "Hardware calibration, integration timing, held-out detection and certification results were not supplied.",
+    "Software capabilities are team-confirmed; exact unpublished runtime mechanics remain release-specific."
+  ]
+}

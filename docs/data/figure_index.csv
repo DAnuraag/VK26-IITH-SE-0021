@@ -1,0 +1,39 @@
+name,svg,png,description,basis
+ecosystem_overview,ecosystem_overview.svg,ecosystem_overview.png,"Onsite Ubuntu platform, Qt/Python, website and companion app",Stage 1 scope + team-confirmed software capabilities
+ecosystem_architecture,ecosystem_architecture.svg,ecosystem_architecture.png,"Field, messaging, embedded gateway and client interfaces",Logical architecture; detailed contracts are reference design
+ecosystem_workflow,ecosystem_workflow.svg,ecosystem_workflow.png,Sensing-to-engineer inspection and recorded outcome,Documented user journey extended with connected clients
+electrical_connections,electrical_connections.svg,electrical_connections.png,Pin-referenced Kelvin sensing and isolated I2C,Proposed low-voltage connection; TI pin tables
+mechanical_layout,mechanical_layout.svg,mechanical_layout.png,"Board allocation, enclosure dimensions and tab load","Proposed geometry; analytical assumptions, not EDA/FEA"
+enclosure_assembly,enclosure_assembly.svg,enclosure_assembly.png,Exploded sensor-node enclosure,Proposed seven-part STEP packaging concept
+anomaly_flow,anomaly_flow.svg,anomaly_flow.png,"Quality gating, residual and persistence",Proposed anomaly acceptance logic
+hmi_reference_layout,hmi_reference_layout.svg,hmi_reference_layout.png,Electrical/environmental interface example,"Illustrative layout/values, not an actual software capture"
+verification_roadmap,verification_roadmap.svg,verification_roadmap.png,Forward verification and release plan,"Four-month relative plan, not completed milestones"
+runtime_stack,runtime_stack.svg,runtime_stack.png,Runtime layers and separation of gateway from sensor-node firmware,Known software technologies; logical service decomposition
+boot_recovery,boot_recovery.svg,boot_recovery.png,"Reference startup dependencies, degraded state and controlled recovery",Reference architecture / proposed operating contract
+qt_workers,qt_workers.svg,qt_workers.png,"Reference nonblocking Qt worker, storage and rendering boundaries",Reference architecture / proposed operating contract
+client_access,client_access.svg,client_access.png,Onsite and remote access boundaries with local-first behavior,Reference architecture / proposed operating contract
+firmware_cycle,firmware_cycle.svg,firmware_cycle.png,Reference sensor acquisition and publish cycle,Reference architecture / proposed operating contract
+power_domains,power_domains.svg,power_domains.png,"Separate power/ground domains, isolated branch and common bridge hazards",Proposed node power design; not a safety certification
+irradiance_chain,irradiance_chain.svg,irradiance_chain.png,Nominal irradiance signal chain and proposed ADC range,Reference architecture / proposed operating contract
+mqtt_replay,mqtt_replay.svg,mqtt_replay.png,Reference QoS 1 redelivery and idempotent persistence sequence,Reference architecture / proposed operating contract
+telemetry_contract,telemetry_contract.svg,telemetry_contract.png,Reference telemetry envelope and shared-client context,Reference architecture / proposed operating contract
+storage_model,storage_model.svg,storage_model.png,"Reference telemetry, calibration, event, maintenance and configuration relations",Reference architecture / proposed operating contract
+quality_states,quality_states.svg,quality_states.png,Measurement-quality vocabulary and recovery requirements,Reference architecture / proposed operating contract
+alert_lifecycle,alert_lifecycle.svg,alert_lifecycle.png,Reference alert lifecycle and engineer-led maintenance,Reference architecture / proposed operating contract
+validation_pipeline,validation_pipeline.svg,validation_pipeline.png,Reference event-level validation and leakage controls,Reference architecture / proposed operating contract
+security_zones,security_zones.svg,security_zones.png,Reference least-privilege boundaries and remote-access review gates,Reference architecture / proposed operating contract
+operator_journey,operator_journey.svg,operator_journey.png,Onsite engineer shift-to-handover workflow,Reference architecture / proposed operating contract
+backup_recovery,backup_recovery.svg,backup_recovery.png,Reference consistent backup and recovery checks,Reference architecture / proposed operating contract
+calibration_chain,calibration_chain.svg,calibration_chain.png,Metrology evidence chain from reference to released coefficients,Reference architecture / proposed operating contract
+fault_isolation,fault_isolation.svg,fault_isolation.png,Boundary-oriented troubleshooting instead of indiscriminate restarts,Reference architecture / proposed operating contract
+release_contract,release_contract.svg,release_contract.png,Reference deployment-release controls for the existing software ecosystem,Reference architecture / proposed operating contract
+maker_progress,maker_progress.svg,maker_progress.png,Documented foundation and team-confirmed software milestones,Reference architecture / proposed operating contract
+shunt_transfer,shunt_transfer.svg,shunt_transfer.png,Calculated current-to-shunt-voltage and heating curves,Ohm/Joule laws; not measured calibration or thermal performance
+irradiance_transfer,irradiance_transfer.svg,irradiance_transfer.png,Nominal SP-110-SS transfer and candidate ADC scaling,Manufacturer nominal sensitivity; calibration coefficient must come from the actual instrument
+energy_gaps,energy_gaps.svg,energy_gaps.png,Illustrative trapezoidal energy accumulation excluding unknown intervals,"Calculated example, not plant telemetry or a meter-comparison result"
+residual_persistence,residual_persistence.svg,residual_persistence.png,Illustrative qualifying residual and 180-second persistence,Reference algorithm timing; stable/valid irradiance assumed; not measured alert performance
+retention_model,retention_model.svg,retention_model.png,Raw ten-node retention and explicitly assumed overhead scenarios,10 nodes × 200 B × 1 Hz; overhead factors are not SQLite benchmark results
+calibration_matrix,calibration_matrix.svg,calibration_matrix.png,Planned bench test-point matrix with calculated load power,"Test plan only; cells are P=VI, not calibration errors or passed test results"
+thermal_budget,thermal_budget.svg,thermal_budget.png,Calculated thermal-resistance requirement for a 65 °C interior target,3 W steady dissipation; direct solar loading excluded; not a thermal test
+budget_breakdown,budget_breakdown.svg,budget_breakdown.png,Proposed BOM line costs with the shared irradiance reference,"Planning prices only; subtotal ₹46,700, contingency total ₹56,040"
+latency_model,latency_model.svg,latency_model.png,Illustrative inspection wait comparison and 210-second design budget,97.08% modeled wait reduction is not measured yield recovery

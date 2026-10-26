@@ -1,0 +1,5 @@
+basis,metric,seconds
+illustrative calculated,mean manual wait,7200
+design target,qualifying visible alert,210
+reference policy,persistence,180
+assumed allocation,other path allowance,30

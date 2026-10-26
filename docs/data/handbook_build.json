@@ -1,0 +1,15 @@
+{
+  "physical_lines": 5000,
+  "utf8_bytes": 248841,
+  "chapter_count_including_title_board": 40,
+  "technical_figures": 38,
+  "sha256": "4c4cc56a5b6c34862f82bd00579126cea05621ca9995892f3faf36b58f78894b",
+  "base_prose_wrap_columns": 76,
+  "prose_wrap_adjustments": 9,
+  "wrap_range_columns": [
+    72,
+    88
+  ],
+  "blank_lines": 725,
+  "padding_lines_added": 0
+}

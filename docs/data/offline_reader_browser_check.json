@@ -1,0 +1,74 @@
+{
+  "scope": "Offline documentation reader only; not ARKA product testing.",
+  "checks": [
+    {
+      "name": "desktop_all_38_figures_decoded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop_no_page_overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "figure_zoom_dialog_opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_size_zoom_toggles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_search_filters",
+      "passed": true,
+      "detail": [
+        "Calibration and Measurement Uncertainty"
+      ]
+    },
+    {
+      "name": "mobile_no_page_overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "mobile_navigation_drawer_opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile_navigation_drawer_closes_after_jump",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sandbox_iframe_all_figures_decode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sandbox_iframe_fonts_loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_script_errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_remote_asset_requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "status": "PASS"
+}

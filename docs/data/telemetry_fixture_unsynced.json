@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "message_type": "telemetry",
+  "source": {
+    "site_id": "bench-site",
+    "zone_id": "zone-a",
+    "node_id": "bench-node-01",
+    "boot_id": "documentation-boot-02",
+    "seq": 0
+  },
+  "time": {
+    "source_utc": null,
+    "uptime_ms": 1000,
+    "clock_status": "unsynced"
+  },
+  "measurements": {
+    "voltage_v": 21.6,
+    "current_a": 3.2,
+    "irradiance_w_m2": 800.0,
+    "panel_temperature_c": 45.0
+  },
+  "quality": {
+    "channel_status": {
+      "voltage": "valid",
+      "current": "valid",
+      "irradiance": "valid",
+      "panel_temperature": "valid"
+    }
+  },
+  "calibration_id": "REFERENCE-ONLY",
+  "firmware_revision": "REFERENCE-ONLY"
+}
