@@ -4983,25 +4983,3 @@ behalf of unnamed members.
 | [budget breakdown](docs/assets/budget_breakdown.svg) | [PNG](docs/assets/budget_breakdown.png) | Planning prices only; subtotal ₹46,700, contingency total ₹56,040 |
 | [latency model](docs/assets/latency_model.svg) | [PNG](docs/assets/latency_model.png) | 97.08% modeled wait reduction is not measured yield recovery |
 
-### Documentation conventions
-
-“Implemented” in the software capability statements reflects the explicit
-team update. “Proposed” identifies a design/reference contract awaiting
-reconciliation and acceptance. “Calculated” identifies arithmetic using
-stated inputs. “Illustrative” identifies explanatory values or layouts.
-“Target” identifies an acceptance goal. None of those terms should be
-substituted for a measured result, a released source artifact or an external
-certification.
-
-Tables and code examples retain units in keys or headings. Images contain
-functional/data labels rather than an overall presentation title; section
-titles and captions remain editable Markdown. SVG assets are preferred for
-detail and PNG fallbacks are supplied. The offline HTML companion embeds its
-resources and does not need a CDN to show the figures.
-
-The project license has not been supplied, so this handbook does not invent
-an open-source license grant. Bundled font license notices remain in
-docs/fonts. Consult the canonical repository owner before reusing project
-code or issuing a product release under a particular license.
-
-> **Final boundary:** ARKA AI supports informed engineering decisions. It does not replace certified electrical protection, qualified inspection or the evidence required to expand beyond the documented low-voltage monitoring scope.
