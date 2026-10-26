@@ -1,41 +1,48 @@
 <div align="center">
-  <a id="top"></a>
-  <p><strong>☀ &nbsp; S O L A R &nbsp; I N T E L L I G E N C E</strong></p>
-  <h1>ARKA AI</h1>
-  <h3>Intelligent Edge-AI Monitoring &amp; Performance Optimization<br>System for Solar Power Plants</h3>
-  <p><strong>Local intelligence. Connected monitoring. Engineer-led decisions.</strong></p>
-  <p>
-    <code>Ubuntu</code> &nbsp; <code>Qt / PySide6</code> &nbsp; <code>Python</code><br>
-    <code>ESP32-S3</code> &nbsp; <code>MQTT</code> &nbsp; <code>Website + App</code>
-  </p>
-  <table>
-    <tr>
-      <th>Application ID</th>
-      <th>Theme</th>
-      <th>Sub-theme</th>
-    </tr>
-    <tr>
-      <td align="center"><strong>VK26-IITH-SE-0021</strong></td>
-      <td align="center">Sustainable Energy</td>
-      <td align="center">Renewable Energy Harvesting<br>&amp; Generation Systems</td>
-    </tr>
-  </table>
-  <p><strong>A field-to-engineer monitoring ecosystem</strong><br>ESP32-S3 sensing → Ubuntu-based onsite platform → Qt, website &amp; companion app</p>
-  <p>
-    <a href="https://github.com/DAnuraag/VK26-IITH-SE-0021"><strong>PROJECT REPOSITORY &amp; REVIEW HUB</strong></a><br>
-    <a href="docs/references/ARKA_AI_Stage1.pdf"><strong>PROJECT DOCUMENTATION</strong></a> &nbsp; · &nbsp;
-    <a href="#prototype-video"><strong>PROTOTYPE VIDEO / PUBLICATION STATUS</strong></a>
-  </p>
-  <p>
-    <a href="#architecture">Architecture</a> &nbsp; · &nbsp;
-    <a href="#embedded-os">Embedded OS</a> &nbsp; · &nbsp;
-    <a href="#website">Website</a> &nbsp; · &nbsp;
-    <a href="#companion-app">App</a> &nbsp; · &nbsp;
-    <a href="#installation">Installation</a> &nbsp; · &nbsp;
-    <a href="#validation">Validation</a> &nbsp; · &nbsp;
-    <a href="#risk-register">Safety</a>
-  </p>
+
+<a id="top"></a>
+
+### ☀️ SOLAR INTELLIGENCE
+
+# ARKA AI
+
+### Intelligent Edge-AI Monitoring & Performance Optimization System for Solar Power Plants
+
+**Local intelligence. Connected monitoring. Engineer-led decisions.**
+
+<br>
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Qt](https://img.shields.io/badge/Qt%2FPySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
+![Web+App](https://img.shields.io/badge/Website%20%2B%20App-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)
+
+<br>
+
+| 🆔 Application ID | 🌍 Theme | 🔋 Sub-theme |
+|:---:|:---:|:---:|
+| **`VK26-IITH-SE-0021`** | Sustainable Energy | Renewable Energy Harvesting<br>& Generation Systems |
+
+<br>
+
+> **A field-to-engineer monitoring ecosystem**
+> ESP32-S3 sensing → Ubuntu-based onsite platform → Qt, website & companion app
+
+<br>
+
+[![Repository](https://img.shields.io/badge/📂_PROJECT_REPOSITORY_&_REVIEW_HUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DAnuraag/VK26-IITH-SE-0021)
+[![Documentation](https://img.shields.io/badge/📄_PROJECT_DOCUMENTATION-4285F4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](docs/references/ARKA_AI_Stage1.pdf)
+[![Prototype Video](https://img.shields.io/badge/▶️_PROTOTYPE_VIDEO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](#prototype-video)
+
+<br>
+
+**`` [Architecture](#architecture) `` • `` [Embedded OS](#embedded-os) `` • `` [Website](#website) `` • `` [Companion App](#companion-app) `` • `` [Installation](#installation) `` • `` [Validation](#validation) `` • `` [Safety](#risk-register) ``**
+
 </div>
+
+---
 
 > **REVIEWERS:** start with the [architecture](#architecture),
 > [implementation milestones](#maker-journey) and [validation/evidence](#validation).
